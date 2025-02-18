@@ -6,17 +6,28 @@ public class Aula02TiposPrimitivos {
         // int,double,char,float,byte,short,long,boolean
 
         System.out.println("Ola´");
+
         boolean falso = false;
         boolean verdadeiro = true;
-        short ageShort = 10;
-        byte agebyte = 10;
-        long numberLong = 100000;
-        float salaryFloat = 2500;
-        double salaryDouble = 2000;
+
+        short ageShort = 32000;
+        byte ageByte = 127;
+
+        double salaryDouble = 2000.0;
+        float salaryFloat = 2500.0f;
+
         int age = 10;
-        char caractere = 'M';
+        long numberLong = (long) 155.23;
+
+        char caractere = '\u0041';
+
+        String nome1 = "Andrews Gabriel Pontes de Oliveira.";
 
         System.out.println("Andrews's age is " + age + " years old.");
+        System.out.println(verdadeiro);
+        System.out.println("char " + caractere);
+        System.out.println(numberLong);
+        System.out.println("Oi, meu nome é " + nome1);
 
     }
 }
