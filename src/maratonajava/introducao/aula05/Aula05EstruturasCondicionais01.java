@@ -1,4 +1,4 @@
-package maratonajava.introducao;
+package maratonajava.introducao.aula05;
 
 public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {

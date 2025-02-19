@@ -1,4 +1,4 @@
-package maratonajava.introducao;
+package maratonajava.introducao.aula03;
 
 public class Aula03TiposPrimitivosExercícios {
     public static void main(String[] args) {
