@@ -1,6 +1,6 @@
 package maratonajava.introducao;
 
-public class Aula05EstruturasCondicionais {
+public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
 
         int age = 14;
@@ -21,12 +21,6 @@ public class Aula05EstruturasCondicionais {
         if(!isAuthorizedtoBuyAlcoholicThings) {
             System.out.println("Vira homem e dps vc bebe!");
         }
-
-
-        
-
-
-
 
 
     }
