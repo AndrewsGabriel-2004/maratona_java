@@ -6,9 +6,11 @@ public class CalculatorTest03 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
-      double result = calculator.partTwoNumbers(20,0);
+        double result = calculator.partTwoNumbers(20,0);
+        System.out.println(result);                            //sem void
 
-        System.out.println(result);
+      calculator.printPartTwoNumbers02(20,0);
+      calculator.printPartTwoNumbers02(20,25);                  //com void
 
     }
 }
