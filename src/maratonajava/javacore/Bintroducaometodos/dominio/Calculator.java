@@ -39,5 +39,26 @@ public class Calculator {
         System.out.println("num2: "+ num2);
     }
 
+        public void additionArray(int[] numbers){
+        int soma = 0;
 
+        for(int i=0; i <= numbers.length; i++){
+            soma += i;
+        }
+
+        System.out.println(soma);
+
+    }
+
+    public void additionVarArgs(int...numbers){
+
+        int soma = 0;
+
+        for(int i=0; i <= numbers.length; i++){
+            soma += i;
+        }
+
+        System.out.println(soma);
+
+    }
 }

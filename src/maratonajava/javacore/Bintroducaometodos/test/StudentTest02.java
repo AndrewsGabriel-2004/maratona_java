@@ -1,13 +1,13 @@
 package maratonajava.javacore.Bintroducaometodos.test;
 
 import maratonajava.javacore.Bintroducaometodos.dominio.PrinterStudant;
-import maratonajava.javacore.Bintroducaometodos.dominio.Studant;
+import maratonajava.javacore.Bintroducaometodos.dominio.Student;
 
-public class StudantTest01 {
+public class StudentTest02 {
     public static void main(String[] args) {
-        Studant stu1 = new Studant();
-        Studant stu2 = new Studant();
-        PrinterStudant printerStudant = new PrinterStudant();
+
+        Student stu1 = new Student();
+        Student stu2 = new Student();
 
         stu1.name = "Midorya";
         stu1.age = 15;
@@ -17,9 +17,8 @@ public class StudantTest01 {
         stu2.age = 20;
         stu2.gender = 'M';
 
-        printerStudant.printer(stu1);
-
-        printerStudant.printer(stu2);
+        stu1.print();
+        stu2.print();
 
 
     }
