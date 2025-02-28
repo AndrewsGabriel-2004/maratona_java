@@ -3,7 +3,7 @@ package maratonajava.javacore.Fmodificadoresstatics.domain;
 public class Car {
     private String name;
     private double velocityMax;
-    public static double velocityLimit = 250; //está associado a CLASSE CARRO, não a instância(atributo de cada objeto)
+    private static double velocityLimit = 250; //está associado a CLASSE CARRO, não a instância(atributo de cada objeto)
 
     public Car(String name, double velocityMax) {
         this.name = name;
@@ -23,17 +23,17 @@ public class Car {
         this.name = name;
     }
 
-    public void setVelocityMax(double velocityMax) {
-        this.velocityMax = velocityMax;
-    }
-
-    public void setVelocityLimit(double velocityLimit) {
-        this.velocityLimit = velocityLimit;
+    public static void setVelocityLimit(double velocityLimit) {
+        Car.velocityLimit = velocityLimit;
     }
 
     //Gets
     public String getName() {
         return name;
+    }
+
+    public static double getVelocityLimit(){
+        return Car.velocityLimit;
     }
 
 }

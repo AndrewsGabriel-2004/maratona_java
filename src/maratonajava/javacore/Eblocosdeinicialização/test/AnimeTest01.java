@@ -1,6 +1,6 @@
-package maratonajava.javacore.EBlocosDeInicialização.test;
+package maratonajava.javacore.Eblocosdeinicialização.test;
 
-import maratonajava.javacore.EBlocosDeInicialização.domain.Anime;
+import maratonajava.javacore.Eblocosdeinicialização.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
