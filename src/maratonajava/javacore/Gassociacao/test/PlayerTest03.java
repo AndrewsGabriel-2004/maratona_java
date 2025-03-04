@@ -15,10 +15,11 @@ public class PlayerTest03 {
         player2.setTeam(team);
         team.setPlayers(players);
 
-        System.out.println("---Players---");
+
+        System.out.println("---Teams---");
         player1.print();
         player2.print();
-        System.out.println("---Team---");
+        System.out.println("---Players---");
         team.print();
 
 
