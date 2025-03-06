@@ -1,9 +1,28 @@
 package maratonajava.javacore.Hheranca.domain;
 
 public class Pessoa {
-    private String name;
-    private String cpf;
-    private Endereco endereco;
+    protected String name;
+    protected String cpf;
+    protected Endereco endereco;
+
+    //bloco de inicializaçõa
+    static {
+    System.out.println("Dentro do bloco de Inicialização estático de Pessoa");
+
+    }
+    {
+        System.out.println("Dentro do bloco de Inicialização de Pessoa1");
+    }
+    {
+        System.out.println("Dentro do bloco de Inicialização de Pessoa2");
+    }
+
+    //construtor
+    public Pessoa(String name){
+        this.name = name;
+        System.out.println("Dentro do construtor de Pessoa");
+    }
+
 
     public void print(){
         System.out.println(this.name);
