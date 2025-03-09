@@ -5,9 +5,14 @@ public class Developer extends Employee{
         super(name, salary);
     }
 
+    public void calculateBonus(){
+        this.salary = this.salary + this.salary*0.01;
+    }
+
     @Override
     public String toString() {
         return "Developer{" +
-                "name='" + name + '\'' + ", salary=" + salary + '}';
+                "name='" + name + '\'' + ", salary=" + this.salary + '}';
     }
+
 }
