@@ -1,15 +1,12 @@
 package maratonajava.javacore.Kenumeracao.domain;
 
 public class Customer {
-    public enum paymentType {
-        debit, credit
-    }
     private String name;
     private CostumerType customerTp;
-    private paymentType paymentType;
+    private PaymentType paymentType;
 
     //constructor
-    public Customer(String name, CostumerType customerTp, paymentType paymentType) {
+    public Customer(String name, CostumerType customerTp, PaymentType paymentType) {
         this.name = name;
         this.customerTp = customerTp;
         this.paymentType = paymentType;
