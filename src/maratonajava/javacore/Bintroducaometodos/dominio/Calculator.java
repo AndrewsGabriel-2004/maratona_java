@@ -1,8 +1,8 @@
 package maratonajava.javacore.Bintroducaometodos.dominio;
 
 public class Calculator {
-    public void addTwoNumbers() {
-        System.out.println(10 + 10);
+    public int addTwoNumbers(int number21,int number22) {
+        return 10 + 10;
     }
     public void lessTwoNumbers() {
         System.out.println(21-2);

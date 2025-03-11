@@ -15,5 +15,7 @@ public class DataLoaderTest01 {
         System.out.println("---------------");
         databaseLoader.checkPermission();
         fileLoader.checkPermission();
+
+
     }
 }
