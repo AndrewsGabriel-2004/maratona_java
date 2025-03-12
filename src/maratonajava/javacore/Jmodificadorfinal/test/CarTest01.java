@@ -9,7 +9,6 @@ public class CarTest01 {
         Car car = new Car();
         Buyer buyer2 = new Buyer();
 
-
         System.out.println(Car.MAX_VELOCITY);
         car.BUYER.setName("Toreto");
         System.out.println(car.BUYER);
