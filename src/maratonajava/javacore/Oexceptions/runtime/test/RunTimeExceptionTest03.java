@@ -1,11 +1,12 @@
 package maratonajava.javacore.Oexceptions.runtime.test;
 
 public class RunTimeExceptionTest03 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         openConnection();
+
     }
 
-    public static void openConnection() {
+    public static void openConnection(){
         try {
             System.out.println("Openning Archive");
             System.out.println("Writting data from Archive");
