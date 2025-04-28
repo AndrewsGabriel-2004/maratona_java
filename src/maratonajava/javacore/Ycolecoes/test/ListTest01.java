@@ -20,7 +20,6 @@ public class ListTest01 {
 
         //nomes.remove("William");
         //nomes.remove(0);
-
         nomes.addAll(nomes2);
         for (String nome : nomes) {
             System.out.println(nome);

@@ -2,7 +2,7 @@ package maratonajava.javacore.Ycolecoes.test;
 
 import maratonajava.javacore.Ycolecoes.dominio.Smartphone;
 
-public class Equalstest01 {
+public class EqualsTest01 {
     public static void main(String[] args) {
         //String nome = "Andrews Gabriel";
         //String nome2 = "Andrews Gabriel";

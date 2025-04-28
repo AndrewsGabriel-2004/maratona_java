@@ -4,9 +4,17 @@ import maratonajava.javacore.Ycolecoes.dominio.Manga;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class MangaSortTest01{
+class MangaByIDComparator implements Comparator<Manga> {
+    @Override
+    public int compare(Manga manga01, Manga manga2) {
+        return manga01.getId().compareTo(manga2.getId());
+    }
+}
+
+public class MangaSortTest01 {
     public static void main(String[] args) {
         List<Manga> mangas = new ArrayList<>(6);
         mangas.add(new Manga(5L, "Attack on Titan", 19.9));
@@ -18,7 +26,14 @@ public class MangaSortTest01{
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
-        Collections.sort(mangas);//the class to have the implemnts Comparable
+        Collections.sort(mangas);//the class to have the implements Comparable
+        System.out.println("========");
+        for (Manga manga : mangas) {
+            System.out.println(manga);
+        }
+
+        //mangas.sort(new MangaByIDComparator());
+        Collections.sort(mangas, new MangaByIDComparator());//the class to have the implements Comparable
         System.out.println("========");
         for (Manga manga : mangas) {
             System.out.println(manga);
