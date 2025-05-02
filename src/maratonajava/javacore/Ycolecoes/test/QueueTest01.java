@@ -5,7 +5,6 @@ import java.util.Queue;
 
 public class QueueTest01 {
     public static void main(String[] args) {
-
         //the first person to join is the same to be treated
         Queue<String> queue = new PriorityQueue<>(); //has to be comparable
         queue.add("D");
