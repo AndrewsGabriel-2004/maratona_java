@@ -1,4 +1,4 @@
-package maratonajava.javacore.ZZinnerclass.test;
+package maratonajava.javacore.ZZAinnerclass.test;
 
 public class OuterClassTest02 {
     private String name = "Midoriya";

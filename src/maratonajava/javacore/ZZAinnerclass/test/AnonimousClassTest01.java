@@ -1,4 +1,4 @@
-package maratonajava.javacore.ZZinnerclass.test;
+package maratonajava.javacore.ZZAinnerclass.test;
 
 class Animal {
     public void walk(){
@@ -13,7 +13,9 @@ public class AnonimousClassTest01 {
                 System.out.println("Dog walking");
             }
         }; //creating the Animal's subclasses
-        animal.walk();
+        animal.walk();//dog walking
+        Animal animal1 = new Animal();
+        animal1.walk();//animal walking
 
     }
 }

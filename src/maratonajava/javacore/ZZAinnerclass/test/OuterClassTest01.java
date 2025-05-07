@@ -1,4 +1,4 @@
-package maratonajava.javacore.ZZinnerclass.test;
+package maratonajava.javacore.ZZAinnerclass.test;
 
 public class OuterClassTest01 {
     private String name = "Monkey D Luffy";
