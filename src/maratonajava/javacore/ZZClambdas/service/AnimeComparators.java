@@ -1,6 +1,6 @@
-package ZZClambdas.service;
+package maratonajava.javacore.ZZClambdas.service;
 
-import ZZClambdas.domain.Anime;
+import maratonajava.javacore.ZZClambdas.domain.Anime;
 
 public class AnimeComparators {
     public static int compareByTitle(Anime a1, Anime a2){

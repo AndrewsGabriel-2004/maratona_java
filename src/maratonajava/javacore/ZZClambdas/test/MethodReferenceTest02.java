@@ -1,7 +1,7 @@
-package ZZClambdas.test;
+package maratonajava.javacore.ZZClambdas.test;
 
-import ZZClambdas.domain.Anime;
-import ZZClambdas.service.AnimeComparators;
+import maratonajava.javacore.ZZClambdas.domain.Anime;
+import maratonajava.javacore.ZZClambdas.service.AnimeComparators;
 
 import java.util.ArrayList;
 import java.util.List;

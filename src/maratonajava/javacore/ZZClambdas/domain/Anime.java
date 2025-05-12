@@ -1,4 +1,4 @@
-package ZZClambdas.domain;
+package maratonajava.javacore.ZZClambdas.domain;
 
 public class Anime {
     private String title;

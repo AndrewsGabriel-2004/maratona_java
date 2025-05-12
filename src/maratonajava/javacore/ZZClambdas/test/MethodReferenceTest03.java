@@ -1,4 +1,4 @@
-package ZZClambdas.test;
+package maratonajava.javacore.ZZClambdas.test;
 
 import java.util.ArrayList;
 import java.util.List;
