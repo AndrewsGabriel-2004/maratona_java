@@ -45,7 +45,7 @@ public class OptionalTest02 {
         Optional<Manga> bySomething2 = findBySomething(m -> m.getId().equals(id));
         bySomething2.ifPresent(System.out::println);
         try {
-            bySomething2.orElseThrow(IllegalAccessException::new);
+            bySomething2.orElseThrow(IllegalArgumentException::new);
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
