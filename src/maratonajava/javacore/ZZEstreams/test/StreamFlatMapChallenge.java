@@ -11,7 +11,7 @@ public class StreamFlatMapChallenge {
         crimeECastigo.add(chapterCrimeECastigo1);
         crimeECastigo.add(chapterCrimeECastigo2);
 
-        List<String> chapterOsSertoes = List.of("O sertão é antes de tudo forte","secura","Antônio Conselheiro","Euclides","Cunha", "Cunha");
+        List<String> chapterOsSertoes = List.of("O sertão é antes de tudo um forte","secura","Antônio Conselheiro","Euclides","Cunha", "Cunha");
         List<List<String>> osSertoes = new ArrayList<>();
         osSertoes.add(chapterOsSertoes);
 
