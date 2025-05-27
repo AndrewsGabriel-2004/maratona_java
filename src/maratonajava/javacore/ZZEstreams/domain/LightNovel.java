@@ -5,6 +5,13 @@ import java.util.Objects;
 public class LightNovel {
     private String title;
     private double price;
+    private Category category;
+
+    public LightNovel(String title, double price, Category category) {
+        this.title = title;
+        this.price = price;
+        this.category = category;
+    }
 
     public LightNovel(String title, double price) {
         this.title = title;
@@ -26,8 +33,9 @@ public class LightNovel {
     @Override
     public String toString() {
         return "LightNovel{" +
-                "name='" + title + '\'' +
-                ", price='" + price + '\'' +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", category=" + category +
                 '}';
     }
 
@@ -37,5 +45,9 @@ public class LightNovel {
 
     public double getPrice() {
         return price;
+    }
+
+    public Category getCategory() {
+        return category;
     }
 }
